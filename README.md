@@ -1,1 +1,43 @@
-# Ejercicio4-index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="archivo_css" href="./normal.css">
+    <title>Ejercicio4-index.html</title>
+</head>
+<body>
+    <div class="principal">
+        <h1>Formulario de datos personales</h1>
+        <form id="datos-personales-form">
+            <div class="grupo_formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="grupo_formulario">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="formulario">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="formulario">
+                <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+            </div>
+            <div class="formulario">
+                <label for="pais-residencia">País de Residencia:</label>
+                <input type="text" id="pais-residencia" name="pais-residencia" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="botones_de_estilos">
+            <button type="button" onclick="estilo_normal()">Estilo NORMAL</button>
+            <button type="button" onclick="estilo_alto_contraste()">Estilo de ALTO-CONTRASTE</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
