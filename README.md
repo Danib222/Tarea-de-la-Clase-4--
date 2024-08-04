@@ -1,43 +1,54 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" id="archivo_css" href="./normal.css">
-    <title>Actividad Clase 4 - GITHUB</title>
-</head>
-<body>
-    <div class="principal">
-        <h1>Formulario de datos personales</h1>
-        <form id="datos-personales-form">
-            <div class="grupo_formulario">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
-            <div class="grupo_formulario">
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" required>
-            </div>
-            <div class="formulario">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="formulario">
-                <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
-                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
-            </div>
-            <div class="formulario">
-                <label for="pais-residencia">País de Residencia:</label>
-                <input type="text" id="pais-residencia" name="pais-residencia" required>
-            </div>
-            <button type="submit">Enviar</button>
-        </form>
 
-        <div class="botones_de_estilos">
-            <button type="button" onclick="estilo_normal()">Estilo NORMAL</button>
-            <button type="button" onclick="estilo_alto_contraste()">Estilo de ALTO-CONTRASTE</button>
-        </div>
-    </div>
-    <script src="app.js"></script>
-</body>
-</html>
+# formulario de Ejemplo
+
+Este repositorio contiene un formulario de ejemplo para demostrar el uso basico de Git y GitHub, desde la creación de un usuario hasta la sincronización de cambios y commits.
+
+## asos realizados
+
+### 1. crear un usuario en GitHub
+
+Ya he creado mi cuenta en [GitHub](https://github.com).
+
+### 2. instalar Git en mi computadora
+
+He instalado Git siguiendo las instrucciones oficiales en [instalacion de git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+### 3. Crear un nuevo repositorio
+
+1. Inicie sesion en gitHub.
+2. hce clic en el boton `New'.
+3. Asigné un nombre a mi repositorio y configuré la visibilidad (público o privado).
+4. Hice clic en `Create repository`.
+
+### 4. Sincronizar mi copia local con mi copia en el servidor
+
+1. lcone el repositorio a mi maquina local:
+    ```bash
+    git clone https://github.com/Danib222-coder/CILSA.git
+
+    ```
+2. Navegué al directorio del repositorio clonado:
+    ```bash
+    cd CILSA
+    ```
+### 5. Realizar pequeños cambios y hacer commits
+
+1. Edite el formulario,
+2. añadi los cambios al area de preparación:
+    ```bash
+    git add .
+    ```
+3. Realicé un commit con un mensaje descriptivo:
+    ```bash
+    git commit -m "Actividad / clase 4"
+    ```
+4. Subí los cambios al repositorio en GitHub:
+    ```bash
+    git push origin main
+    ```
+
+## dificultades Encontradas
+
+Algunas dificultades comunes:
+
+- Errores de autenticación al intentar sincronizar con GitHub (asegúrate de configurar correctamente tus credenciales de Git).
