@@ -29,8 +29,9 @@ He instalado Git siguiendo las instrucciones oficiales en [instalacion de git](h
     ```
 2. Navegué al directorio del repositorio clonado:
     ```bash
-    cd CILSA
-    ```
+    cd Tarea-de-la-Clase-4--
+
+    
 ### 5. Realizar pequeños cambios y hacer commits
 
 1. Edite el formulario,
