@@ -24,7 +24,7 @@ He instalado Git siguiendo las instrucciones oficiales en [instalacion de git](h
 
 1. lcone el repositorio a mi maquina local:
     ```bash
-    git clone https://github.com/Danib222-coder/CILSA.git
+    git clone https://github.com/Danib222/Tarea-de-la-Clase-4--.git
 
     ```
 2. Navegué al directorio del repositorio clonado:
