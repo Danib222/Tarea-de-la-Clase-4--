@@ -40,7 +40,7 @@ He instalado Git siguiendo las instrucciones oficiales en [instalacion de git](h
     ```
 3. Realicé un commit con un mensaje descriptivo:
     ```bash
-    git commit -m "Actividad / clase 4"
+    git commit -m "Tarea-de-la-Clase-4--"
     ```
 4. Subí los cambios al repositorio en GitHub:
     ```bash
