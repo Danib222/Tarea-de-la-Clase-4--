@@ -1,9 +1,9 @@
 
-# formulario de Ejemplo
+# Formulario de Ejemplo
 
 Este repositorio contiene un formulario de ejemplo para demostrar el uso basico de Git y GitHub, desde la creación de un usuario hasta la sincronización de cambios y commits.
 
-## asos realizados
+## Pasos realizados
 
 ### 1. crear un usuario en GitHub
 
