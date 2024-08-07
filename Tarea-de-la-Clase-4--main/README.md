@@ -1,9 +1,9 @@
 
-# formulario de Ejemplo
+# Formulario de Ejemplo
 
 Este repositorio contiene un formulario de ejemplo para demostrar el uso basico de Git y GitHub, desde la creación de un usuario hasta la sincronización de cambios y commits.
 
-## asos realizados
+## Pasos realizados
 
 ### 1. crear un usuario en GitHub
 
@@ -24,12 +24,12 @@ He instalado Git siguiendo las instrucciones oficiales en [instalacion de git](h
 
 1. lcone el repositorio a mi maquina local:
     ```bash
-    git clone https://github.com/Danib222-coder/CILSA.git
+    git clone https://github.com/Danib222/Tarea-de-la-Clase-4--.git
 
     ```
 2. Navegué al directorio del repositorio clonado:
     ```bash
-    cd CILSA
+    cd Tarea-de-la-Clase-4--
     ```
 ### 5. Realizar pequeños cambios y hacer commits
 
@@ -40,7 +40,7 @@ He instalado Git siguiendo las instrucciones oficiales en [instalacion de git](h
     ```
 3. Realicé un commit con un mensaje descriptivo:
     ```bash
-    git commit -m "Actividad / clase 4"
+    git commit -m "Tarea-de-la-Clase-4--"
     ```
 4. Subí los cambios al repositorio en GitHub:
     ```bash
