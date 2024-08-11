@@ -5,15 +5,15 @@ Este repositorio contiene un formulario de ejemplo para demostrar el uso basico 
 
 ## Pasos realizados
 
-### 1. crear un usuario en GitHub
+### 1. Cree un usuario en GitHub
 
-Ya he creado mi cuenta en [GitHub](https://github.com).
+Ya he creado mi cuenta en [GitHub](https://github.com)
 
-### 2. instalar Git en mi computadora
+### 2. Instale Git en mi computadora
 
 He instalado Git siguiendo las instrucciones oficiales en [instalacion de git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-### 3. Crear un nuevo repositorio
+### 3. Cree un nuevo repositorio
 
 1. Inicie sesion en gitHub.
 2. hce clic en el boton `New'.
@@ -50,6 +50,6 @@ He instalado Git siguiendo las instrucciones oficiales en [instalacion de git](h
 
 ## dificultades Encontradas
 
-Algunas dificultades comunes:
+Las dificultades comunes:
 
 - Errores de autenticación al intentar sincronizar con GitHub (asegúrate de configurar correctamente tus credenciales de Git).
