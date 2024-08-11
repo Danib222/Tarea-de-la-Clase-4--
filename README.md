@@ -48,8 +48,8 @@ He instalado Git siguiendo las instrucciones oficiales en [instalacion de git](h
     git push origin main
     ```
 
-## dificultades Encontradas
+## Dificultades Encontradas
 
 Las dificultades comunes:
 
-- Errores de autenticación al intentar sincronizar con GitHub (asegúrate de configurar correctamente tus credenciales de Git).
+- Errores al intentar sincronizar con GitHub (asegúrate de configurar correctamente tus credenciales de Git).
